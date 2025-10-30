@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<script>
+    document.body.classList.add('datos-page');
+</script>
+
+<div class="container">
+    <h1>Datos Recibidos</h1>
+
+    <div class="datos-lista">
+        <div class="dato-fila">
+            <div class="dato-etiqueta">Nombre del Equipo:</div>
+            <div class="dato-contenido">{{datos.nombre_equipo}}</div>
+        </div>
+
+        <div class="dato-fila">
+            <div class="dato-etiqueta">Jefe:</div>
+            <div class="dato-contenido">{{datos.nombre_jefe}}</div>
+        </div>
+
+        <div class="dato-fila">
+            <div class="dato-etiqueta">Membresía:</div>
+            <div class="dato-contenido">{{datos.membresia}}</div>
+        </div>
+
+        <div class="dato-fila">
+            <div class="dato-etiqueta">Cantidad:</div>
+            <div class="dato-contenido">{{datos.cantidad}}</div>
+        </div>
+    </div>
+
+    <div class="total-fila">
+        <div class="dato-fila">
+            <div class="dato-etiqueta">Total:</div>
+            <div class="dato-contenido">{{datos.total}}</div>
+        </div>
+    </div>
+
+    <a href="{% url 'crear_equipo' %}" class="btn-volver">← Volver al Formulario</a>
+</div>
+{% endblock %}

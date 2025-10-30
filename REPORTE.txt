@@ -1,0 +1,6 @@
+(views.py) subido por  Franklin Cayllagua Mamani
+(urls.py) y (settings.py) subido por Sergio Santiago Huanca Lopez
+(forms.py) subido por Omar Mamani Clavijo
+(base.html) y (equipo_formulario.html) subido por Heynar Freddy Mamani Quispe
+(equipo_éxito.html) subido por Juan Manuel Siñani Chavez
+CAPTURAS DEL TRABAJO EN EL PDF
